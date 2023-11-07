@@ -1,6 +1,6 @@
-vowels = ['o','e']
+vowels = ['o','e','z']
 found=[]
-word = input('Provide a word to search for wovels:')
+word = input('Provide a word to search for all letters:')
 for letter in word:
     if letter in vowels:
        if letter not in found:
